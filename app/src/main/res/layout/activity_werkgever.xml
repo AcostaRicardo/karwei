@@ -4,24 +4,15 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".SecondActivity">
+    tools:context=".Werkgever">
 
-    <Button
-        android:id="@+id/btnWerknemer"
+    <TextView
+        android:id="@+id/textView2"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_marginTop="208dp"
-        android:text="Werknemer"
-        app:layout_constraintStart_toStartOf="@+id/btnWerkgever"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <Button
-        android:id="@+id/btnWerkgever"
-        android:layout_width="109dp"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="8dp"
-        android:text="Werkgever"
+        android:text="Welcome !"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/btnWerknemer" />
+        app:layout_constraintTop_toTopOf="parent" />
 </android.support.constraint.ConstraintLayout>
