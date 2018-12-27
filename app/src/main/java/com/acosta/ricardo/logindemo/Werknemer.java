@@ -15,7 +15,7 @@ public class Werknemer extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_werknemer);
         mListView = (ListView) findViewById(R.id.listview);
-        ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1);
+        ArrayAdapter<String> mAdapter = new ArrayAdapter<String>(this, android.R.layout.simple_list_item_1,karweitjes);
         mListView.setAdapter(mAdapter);
     }
 }
