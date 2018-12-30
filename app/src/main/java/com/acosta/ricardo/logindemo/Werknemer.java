@@ -31,10 +31,16 @@ public class Werknemer extends AppCompatActivity {
 
             @Override
             public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
+
+                  //VERGELIJKT
                   for(int i = 0; i < job.length;i++){
                   if(karweitjes[position] == job[i].getTitle()){
                       Toast.makeText(Werknemer.this,job[i].getDescription(),Toast.LENGTH_LONG).show();
                   }
+                  //NIEUWE INTENT
+
+
+
                 }
 
             }
