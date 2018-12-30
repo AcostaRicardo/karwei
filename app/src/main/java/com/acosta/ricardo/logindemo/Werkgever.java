@@ -32,7 +32,7 @@ public class Werkgever extends AppCompatActivity {
                 // 1 CREATE CHILD IN ROOT OBJECT
                 // 2 ASSIGN SOME VALUE TO THE CHILD OBJECT
 
-                mDatabase.child("Name").setValue("Ricardo");
+                mDatabase.child("namen").child("nameID").setValue("Ricardo");
 
             }
         });
