@@ -8,9 +8,15 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-public class Werknemer extends AppCompatActivity {
-    ListView mListView;
+import com.google.firebase.database.DatabaseReference;
+import com.google.firebase.database.FirebaseDatabase;
 
+public class Werknemer extends AppCompatActivity {
+
+
+
+
+    ListView mListView;
     Karwei[] job = new Karwei[2];
 
 
@@ -18,6 +24,9 @@ public class Werknemer extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_werknemer);
+
+
+
 
         job[0] = new  Karwei("Auto wassen","auto is vies, was het voor 50 euro","lol@gmail.com");
         job[1] = new  Karwei("gras maaien","het gras staat hoog, maai dit af voor 50 euro","test@gmail.com");
