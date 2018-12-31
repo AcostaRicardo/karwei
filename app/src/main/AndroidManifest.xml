@@ -19,7 +19,6 @@
         <activity android:name=".SecondActivity" />
         <activity android:name=".Werknemer" />
         <activity android:name=".Werkgever" />
-        <activity android:name=".DisplayKarwei" />
     </application>
 
 </manifest>
