@@ -1,35 +1,27 @@
 {
   "project_info": {
-    "project_number": "916027221162",
-    "firebase_url": "https://karwei-23a94.firebaseio.com",
-    "project_id": "karwei-23a94",
-    "storage_bucket": "karwei-23a94.appspot.com"
+    "project_number": "226792459843",
+    "firebase_url": "https://karwei-3c41a.firebaseio.com",
+    "project_id": "karwei-3c41a",
+    "storage_bucket": "karwei-3c41a.appspot.com"
   },
   "client": [
     {
       "client_info": {
-        "mobilesdk_app_id": "1:916027221162:android:cc93e5fa4366aa63",
+        "mobilesdk_app_id": "1:226792459843:android:cc93e5fa4366aa63",
         "android_client_info": {
           "package_name": "com.acosta.ricardo.logindemo"
         }
       },
       "oauth_client": [
         {
-          "client_id": "916027221162-2h3724m76clau56744mc69bcfe4391lj.apps.googleusercontent.com",
-          "client_type": 1,
-          "android_info": {
-            "package_name": "com.acosta.ricardo.logindemo",
-            "certificate_hash": "2677c8836bcdf09d0bdc5727760e499c275b984b"
-          }
-        },
-        {
-          "client_id": "916027221162-alqvdvmc755u6mdktg1t0419fifbtdb2.apps.googleusercontent.com",
+          "client_id": "226792459843-09r50f0q6dau9k8d8c4rcta8oosuhsll.apps.googleusercontent.com",
           "client_type": 3
         }
       ],
       "api_key": [
         {
-          "current_key": "AIzaSyCtwWGIE9KoPr8h-huuhhw7rFi3UKOQEwQ"
+          "current_key": "AIzaSyAopqHtIgisBvSK1F5YYTdxguc0bTTBJ1w"
         }
       ],
       "services": {
@@ -37,13 +29,8 @@
           "status": 1
         },
         "appinvite_service": {
-          "status": 2,
-          "other_platform_oauth_client": [
-            {
-              "client_id": "916027221162-alqvdvmc755u6mdktg1t0419fifbtdb2.apps.googleusercontent.com",
-              "client_type": 3
-            }
-          ]
+          "status": 1,
+          "other_platform_oauth_client": []
         },
         "ads_service": {
           "status": 2

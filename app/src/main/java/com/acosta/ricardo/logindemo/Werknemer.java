@@ -8,8 +8,6 @@ import android.widget.ArrayAdapter;
 import android.widget.ListView;
 import android.widget.Toast;
 
-import com.google.firebase.database.DatabaseReference;
-import com.google.firebase.database.FirebaseDatabase;
 
 public class Werknemer extends AppCompatActivity {
 
@@ -27,7 +25,7 @@ public class Werknemer extends AppCompatActivity {
 
 
 
-
+        //HARDCODED
         job[0] = new  Karwei("Auto wassen","auto is vies, was het voor 50 euro","lol@gmail.com");
         job[1] = new  Karwei("gras maaien","het gras staat hoog, maai dit af voor 50 euro","test@gmail.com");
 
