@@ -18,7 +18,7 @@
         </activity>
         <activity android:name=".SecondActivity" />
         <activity android:name=".Werknemer" />
-        <activity android:name=".Werkgever"></activity>
+        <activity android:name=".Werkgever" />
     </application>
 
 </manifest>
